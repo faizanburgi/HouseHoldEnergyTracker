@@ -8,7 +8,7 @@ import java.util.List;
 public class Household {
     private List<Appliance> appliances;
     private List<EnergyUsageRecord> records;
-    private final double COST_PER_KWH = 0.50;
+    private final double COST_PER_KWH = 0.7;
 
     public Household() {
         this.appliances = new ArrayList<>();
